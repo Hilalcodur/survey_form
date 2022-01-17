@@ -1,0 +1,18 @@
+* {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 50px;
+}
+ h1 {
+    text-decoration: overline;
+    background-color: blanchedalmond;
+    width: 450px;
+    padding: 5px;
+    
+}
+div {
+    background-color: blanchedalmond;
+    padding: 5px;
+}
+
