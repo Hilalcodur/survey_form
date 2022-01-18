@@ -1,18 +1,90 @@
-* {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-body{
-    margin: 50px;
-}
- h1 {
-    text-decoration: overline;
-    background-color: blanchedalmond;
-    width: 450px;
-    padding: 5px;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
     
 }
-div {
-    background-color: blanchedalmond;
-    padding: 5px;
+
+body {
+    color: black;
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
+#container{
+    max-width: 1240px;
+    background-color: rgba(204, 160, 193, 0.3);
+    margin: auto; /* container kapsadigi alani ortaladi*/
+    margin-top: 30px;
+    
+}
+
+#title {
+    text-decoration: overline;
+    text-decoration-style: wavy;
+    font-size: 3.1rem;
+    color: rgb(8, 4, 4);
+    letter-spacing: 0.05em;
+    
+}
+
+#description {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.1rem;
+    letter-spacing: 0.05em;
+}
+
+#header {
+    text-align: center;
+    font-size: 12px;
+    color: rgb(240, 233, 233);
+    font-family: 'Shadows Into Light', cursive;
+    padding: 10px;
+}
+
+textarea {
+    resize: none;  /*text area size sabitler!*/
+}
+
+#survey-form-container {
+    width: 500px;
+    background-color: rgba(226, 202, 202, 0.8);
+    margin: auto;
+    padding: 10px 40px;
+}
+
+#name,
+#surname,
+#email,
+#option,
+#comment {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.input-box{
+    margin-top: 10px;
+}
+
+#form-button {
+    width: 160px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: aquamarine;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.form-submit {
+    text-align: right;
+    margin-top: 15px;
+}
+
+#form-button:hover{
+    width: 200px;
+    height: 50px;
+}
